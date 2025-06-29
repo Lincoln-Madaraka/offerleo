@@ -1,77 +1,70 @@
-# 🦁 OfferLeo – Kenya’s Offers Aggregator
+# OfferLeo – Kenya's Real-Time Offers Aggregator  
 
-**Slogan:** _Shop Smart, Save Hard._
+**Slogan:** _Shop Smart, Save Hard._  
 
-[![Last Commit](https://img.shields.io/github/last-commit/Lincoln-Madaraka/offerleo?color=orange&style=flat-square)](https://github.com/Lincoln-Madaraka/offerleo/commits)
-[![Deployed on Vercel](https://img.shields.io/badge/Live%20Site-Vercel-000?logo=vercel&style=flat-square)](https://offerleo.vercel.app)
-
----
-
-## 🛒 What is OfferLeo?
-
-> **OfferLeo** is a smart shopping platform designed for urban Kenyan shoppers.  
-It intelligently aggregates and displays **real-time offers and promotions** from top retail and supermarket brands across Kenya.
-
-The platform eliminates the need to visit individual store websites or outlets. Instead, it **fetches, compiles, and displays the best deals** – all in one sleek, user-friendly dashboard.
-
-🛍️ Whether you're in Nairobi, Kisumu, or Mombasa, OfferLeo helps you **shop smart and save hard**.
+[![Last Commit](https://img.shields.io/github/last-commit/Lincoln-Madaraka/offerleo?color=orange&style=flat-square)](https://github.com/Lincoln-Madaraka/offerleo/commits/main) 
+[![Deployed on Vercel](https://img.shields.io/badge/Live%20Demo-Vercel-000?logo=vercel&style=flat-square)](https://offerleo.vercel.app) 
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)  
 
 ---
 
-## ⚙️ Tech Stack
+## 🛒 Overview  
+**OfferLeo** is Kenya’s first intelligent shopping assistant that aggregates **real-time promotions** from supermarkets (Naivas, Quickmart, Carrefour, etc.) into one dashboard.  
 
-### 💻 Frontend
-- [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [React Icons](https://react-icons.github.io/react-icons/)
-- [React Router](https://reactrouter.com/)
-
-### 🌐 Backend _(In Progress)_
-- [Express.js](https://expressjs.com/)
-- [Node.js](https://nodejs.org/)
-- Web scraping tools (e.g., Cheerio / Puppeteer)
+✨ **Key Features:**  
+- 🚀 **Instant deal alerts** for price drops and discounts  
+- 📍 **Location-based** offer filtering  
+- 🔄 **Automated updates** (no manual price checks!)  
+- 💰 **Savings calculator** to track your monthly gains  
 
 ---
 
-## 🚀 Project Setup
+## ⚙️ Tech Stack  
+### **Frontend**  
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) 
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwind-css&logoColor=white)  
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer&logoColor=white) 
+![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000?logo=vercel&logoColor=white)  
 
-### 📦 Installation
+### **Backend** *(Planned)*  
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) 
+![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)  
+![Puppeteer](https://img.shields.io/badge/Scraping-Puppeteer-40B5A4?logo=puppeteer&logoColor=white)  
 
+---
+
+## 🚀 Quick Start  
+### **Prerequisites**  
+- Node.js ≥ 16  
+- npm/yarn  
+
+### **Installation**  
 ```bash
-git clone https://github.com/Lincoln-Madaraka/offerleo.git
-cd offerleo
-npm install
+git clone https://github.com/Lincoln-Madaraka/offerleo.git  
+cd offerleo  
+npm install  
+npm start  # Runs on http://localhost:3000  
 
-###▶️ Start the Project
-bash
-Copy
-Edit
-npm start
+### 🎯 Roadmap
+Phase 1: MVP with static demo data (Done)
 
-The app will run locally on: http://localhost:3000
+Phase 2: Integrate live supermarket APIs
 
-###📁 Project Structure
-graphql
-Copy
-Edit
-offerleo/
-├── public/             # Static assets (favicon, manifest, images)
-├── src/
-│   ├── assets/         # Logo, background images
-│   ├── components/     # Reusable UI components (Navbar, Footer, etc.)
-│   ├── pages/          # Main page views (Home, About, Contact, etc.)
-│   ├── styles/         # Component-specific styles
-│   ├── App.tsx         # Main app entry
-│   └── index.tsx       # React DOM entry point
-├── package.json
-├── tsconfig.json
-└── README.md
+Phase 3: User accounts + personalized deal alerts
 
-## 🧑‍💻 Contributors
+Phase 4: Mobile app (React Native)
 
-[@Lincoln-Madaraka](https://github.com/Lincoln-Madaraka) 
-[@comfortsandra](https://github.com/comfortsandra)
-[@Naftalbosire](https://github.com/Naftalbosire) 
-[@arveyk](https://github.com/arveyk) 
+###👥 Contributors
+Team Lead
+https://img.shields.io/badge/Team_Lead-Lincoln_Madaraka-181717?logo=github
+
+Core Team
+https://img.shields.io/badge/Backend_Dev-Comfort_Sandra-181717?logo=github
+https://img.shields.io/badge/Fullstack-Naftal_Bosire-181717?logo=github
+https://img.shields.io/badge/Frontend-Arvey_K-181717?logo=github
+
+Want to contribute? Open an issue or submit a PR!
+
+📜 License
+This project is licensed under the MIT License - see LICENSE for details.
