@@ -1,0 +1,73 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1e1e1e;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 0.75rem;
+}
+
+.navbar-title h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #f26522;
+}
+
+.slogan {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #ccc;
+  margin-top: -2px;
+}
+
+.navbar-center a {
+  margin: 0 0.75rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-center a:hover,
+.navbar-center a.active {
+  color: #f26522;
+}
+
+.navbar-right .btn {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 2px solid #f26522;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.navbar-right .login {
+  background-color: transparent;
+  color: #f26522;
+}
+
+.navbar-right .signup {
+  background-color: #f26522;
+  color: white;
+}
+
+.navbar-right .btn:hover {
+  transform: scale(1.05);
+}
