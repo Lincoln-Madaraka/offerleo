@@ -1,0 +1,15 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 2rem;
+}
+
+.home-content {
+  z-index: 2;
+}
