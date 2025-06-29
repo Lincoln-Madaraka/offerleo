@@ -44,6 +44,11 @@
   gap: 0.5rem;
 }
 
+.footer-contact a svg {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
 .footer-links a,
 .footer-contact a {
   color: #ccc;

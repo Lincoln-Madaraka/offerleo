@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '..styles/Contact.css';
+import '../styles/Contact.css';
 import { motion } from 'framer-motion';
 import { toast } from 'react-toastify';
 
@@ -61,8 +61,8 @@ const Contact = () => {
       </form>
 
       <div className="contact-info">
-        <p>Email: <a href="mailto:madarakalincoln48@gmail.com">madarakalincoln48@gmail.com</a></p>
-        <p>Phone: <a href="tel:+254759725607">+254 759 725607</a></p>
+        <p>Email: <a href="mailto:madarakalincoln48@gmail.com">Email Us</a></p>
+        <p>Phone: <a href="tel:+254759725607">Call Us</a></p>
       </div>
     </motion.div>
   );
