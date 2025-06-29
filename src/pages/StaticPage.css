@@ -1,0 +1,25 @@
+.static-page {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #eee;
+}
+
+.static-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #f26522;
+}
+
+.static-page h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #f26522;
+}
+
+.static-page p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #ccc;
+}
