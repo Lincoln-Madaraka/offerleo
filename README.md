@@ -3,7 +3,7 @@
 **Slogan:** _Shop Smart, Save Hard._  
 
 [![Last Commit](https://img.shields.io/github/last-commit/Lincoln-Madaraka/offerleo?color=orange&style=flat-square)](https://github.com/Lincoln-Madaraka/offerleo/commits/main) 
-[![Deployed on Vercel](https://img.shields.io/badge/Live%20Demo-Vercel-000?logo=vercel&style=flat-square)](https://offerleo.vercel.app) 
+[![Deployed on Vercel](https://img.shields.io/badge/Live%20Demo-Vercel-000?logo=vercel&style=flat-square)](https://offerleo.vercel.app/) 
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)  
 
 ---
@@ -55,9 +55,9 @@ Phase 3: User accounts + personalized deal alerts
 Phase 4: Mobile app (React Native)
 
 ### 👥 Contributors
-##Team Lead
+Team Lead 
 [![GitHub](https://img.shields.io/badge/-@Lincoln--Madaraka-181717?logo=github)](https://github.com/Lincoln-Madaraka)
-##Core Team
+Core Team
 [![GitHub](https://img.shields.io/badge/-@comfortsandrah-181717?logo=github)](https://github.com/comfortsandrah)
 [![GitHub](https://img.shields.io/badge/-@Naftalbosire-181717?logo=github)](https://github.com/Naftalbosire)
 [![GitHub](https://img.shields.io/badge/-@arveyk-181717?logo=github)](https://github.com/arveyk)
