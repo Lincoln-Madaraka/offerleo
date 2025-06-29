@@ -67,3 +67,17 @@
   color: #f26522;
   text-decoration: none;
 }
+.back-arrow {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.back-arrow:hover {
+  color: #d6521b;
+}
