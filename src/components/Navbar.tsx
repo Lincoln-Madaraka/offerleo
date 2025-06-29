@@ -21,8 +21,9 @@ const Navbar = () => {
       {/* Center: Navigation */}
       <div className="navbar-center">
         <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Trending Offers</Link>
-        <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>How It Works</Link>
-        <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>Why Join</Link>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#why-join">Why Join</a>
+        <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>About Us</Link>
         <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link>
       </div>
 
