@@ -1,7 +1,7 @@
 import React from 'react';
 import Background from '../components/BackgroundLoop';
 import TrendingOffers from '../components/TrendingOffers';
-import './Home.css';
+import '.styles/Home.css';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 

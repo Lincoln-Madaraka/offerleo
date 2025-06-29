@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Auth.css';
+import '.styles/Auth.css';
 import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';

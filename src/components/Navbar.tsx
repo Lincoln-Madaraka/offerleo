@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FaTwitter, FaInstagram, FaPhone, FaEnvelope } from 'react-icons/fa';
-import './Navbar.css'; // Custom styles for navbar
+import '.styles/Navbar.css'; // Custom styles for navbar
 import logo from '../assets/logo.png'; // Make sure logo.png is in assets
 
 const Navbar = () => {

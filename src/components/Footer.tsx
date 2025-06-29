@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaTwitter, FaInstagram, FaPhone, FaEnvelope } from 'react-icons/fa';
-import './Footer.css';
+import '.styles/Footer.css';
 import logo from '../assets/logo.png';
 
 const Footer = () => {
@@ -27,10 +27,10 @@ const Footer = () => {
 
         {/* Contact Info + Socials */}
         <div className="footer-contact">
-          <a href="tel:+254759725607"><FaPhone /> +254 759 725607</a>
-          <a href="mailto:madarakalincoln48@gmail.com"><FaEnvelope /> madarakalincoln48@gmail.com</a>
-          <a href="https://twitter.com/syntaxrtx" target="_blank" rel="noopener noreferrer"><FaTwitter /> @syntaxrtx</a>
-          <a href="https://instagram.com/kcl_fy" target="_blank" rel="noopener noreferrer"><FaInstagram /> @kcl_fy</a>
+          <a href="tel:+254759725607"><FaPhone />Text/Call Us</a>
+          <a href="mailto:madarakalincoln48@gmail.com"><FaEnvelope />Email Us</a>
+          <a href="https://twitter.com/syntaxrtx" target="_blank" rel="noopener noreferrer"><FaTwitter />Follow Us on X/Twitter</a>
+          <a href="https://instagram.com/kcl_fy" target="_blank" rel="noopener noreferrer"><FaInstagram />Follow Us on Instagram</a>
         </div>
       </div>
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import './BackgroundLoop.css';
+import '.styles/BackgroundLoop.css';
 import back1 from '../assets/back.jpeg';
 import back2 from '../assets/back1.jpeg';
 import back3 from '../assets/back2.jpeg';

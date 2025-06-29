@@ -1,5 +1,5 @@
 import React from 'react';
-import './StaticPage.css';
+import '.styles/StaticPage.css';
 
 const Partner = () => {
   return (
