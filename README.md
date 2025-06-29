@@ -44,10 +44,10 @@
 git clone https://github.com/Lincoln-Madaraka/offerleo.git  
 cd offerleo  
 npm install  
-npm start  # Runs on http://localhost:3000  
+npm start  # Runs on http://localhost:3000 ```
 
 ### 🎯 Roadmap
-Phase 1: MVP with static demo data (Done)
+Phase 1: MVP with static demo data (In Progress)
 
 Phase 2: Integrate live supermarket APIs
 
@@ -57,12 +57,11 @@ Phase 4: Mobile app (React Native)
 
 ###👥 Contributors
 Team Lead
-https://img.shields.io/badge/Team_Lead-Lincoln_Madaraka-181717?logo=github
-
+[![GitHub](https://img.shields.io/badge/-@Lincoln--Madaraka-181717?logo=github)](https://github.com/Lincoln-Madaraka)
 Core Team
-https://img.shields.io/badge/Backend_Dev-Comfort_Sandra-181717?logo=github
-https://img.shields.io/badge/Fullstack-Naftal_Bosire-181717?logo=github
-https://img.shields.io/badge/Frontend-Arvey_K-181717?logo=github
+[![GitHub](https://img.shields.io/badge/-@comfortsandrah-181717?logo=github)](https://github.com/comfortsandrah)
+[![GitHub](https://img.shields.io/badge/-@Naftalbosire-181717?logo=github)](https://github.com/Naftalbosire)
+[![GitHub](https://img.shields.io/badge/-@arveyk-181717?logo=github)](https://github.com/arveyk)
 
 Want to contribute? Open an issue or submit a PR!
 
