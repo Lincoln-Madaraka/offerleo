@@ -27,7 +27,7 @@ const TrendingOffers = () => {
             <img src={offer.src} alt={`Offer ${index + 1}`} />
             <div className="overlay">
               <p>{offer.title}</p>
-              <button className="view-btn">Sign up to view</button>
+              <button className="view-btn">View Product</button>
             </div>
           </div>
         ))}
