@@ -5,7 +5,10 @@ import { useNavigate } from 'react-router-dom';
 const offerImages = [
   { src: require('../assets/offers/offer1.jpeg'), title: '50% Off - Quickmart' },
   { src: require('../assets/offers/offer2.jpeg'), title: 'Buy 1 Get 1 - Naivas' },
-  { src: require('../assets/offers/offer3.jpeg'), title: '20% Off - Carrefour' },
+  { src: require('../assets/offers/offer3.jpeg'), title: '22% Off - Carrefour' },
+  { src: require('../assets/offers/offer4.jpeg'), title: '15% Off - Magunas' },
+  { src: require('../assets/offers/offer5.jpeg'), title: '10% Off - Naivas' },
+  { src: require('../assets/offers/offer6.jpeg'), title: '30% Off - Carrefour' },
 ];
 
 const TrendingOffers = () => {
