@@ -1,15 +1,81 @@
+
 .home {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  color: white;
   padding: 2rem;
+  text-align: center;
 }
 
-.home-content {
+.hero-content {
+  max-width: 700px;
   z-index: 2;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #f26522;
+}
+
+.hero p {
+  margin: 1rem 0 2rem;
+  font-size: 1.1rem;
+}
+
+.btn.get-started {
+  background-color: #f26522;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn.get-started:hover {
+  background-color: #d6521b;
+}
+
+.info-section {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #f26522;
+}
+
+.info-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.btn.join-now {
+  margin-top: 2rem;
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid #f26522;
+  color: #f26522;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn.join-now:hover {
+  background-color: #f26522;
+  color: white;
 }
