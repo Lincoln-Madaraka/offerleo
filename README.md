@@ -71,9 +71,7 @@ offerleo/
 
 ## 🧑‍💻 Contributors
 
-| Avatar | Name & Role | GitHub |
-|--------|-------------|--------|
-| <img src="https://github.com/Lincoln-Madaraka.png" width="50" height="50" /> | **Lincoln Madaraka**<br/>_Team Lead_ | [@Lincoln-Madaraka](https://github.com/Lincoln-Madaraka) |
-| <img src="https://github.com/comfortsandra.png" width="50" height="50" /> | **Sandra Lewa**<br/>_Team Member_ | [@comfortsandra](https://github.com/comfortsandra) |
-| <img src="https://github.com/Naftalbosire.png" width="50" height="50" /> | **Naftali Bosire**<br/>_Team Member_ | [@Naftalbosire](https://github.com/Naftalbosire) |
-| <img src="https://github.com/arveyk.png" width="50" height="50" /> | **Harvey Kisiangani**<br/>_Team Member_ | [@arveyk](https://github.com/arveyk) |
+[@Lincoln-Madaraka](https://github.com/Lincoln-Madaraka) 
+[@comfortsandra](https://github.com/comfortsandra)
+[@Naftalbosire](https://github.com/Naftalbosire) 
+[@arveyk](https://github.com/arveyk) 
