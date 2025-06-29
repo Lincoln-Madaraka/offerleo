@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import '../styles/Contact.css';
 import { motion } from 'framer-motion';
 import { toast } from 'react-toastify';
+import { FaArrowLeft } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
@@ -25,6 +27,9 @@ const Contact = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="contact-header">
+        <Link to="/" className="back-arrow">
+          <FaArrowLeft className="back-icon" /> Back
+        </Link>
         <h1>Contact Us</h1>
         <p>We’d love to hear from you. Reach out with questions, suggestions, or partnership inquiries.</p>
       </div>
