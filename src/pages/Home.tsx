@@ -1,5 +1,6 @@
 import React from 'react';
 import Background from '../components/BackgroundLoop';
+import TrendingOffers from '../components/TrendingOffers';
 import './Home.css';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -22,7 +23,7 @@ const Home = () => {
           <Link to="/signup" className="btn get-started">Get Started</Link>
         </motion.div>
       </section>
-
+      <TrendingOffers/>
       {/* How It Works Section */}
       <section className="info-section" id="how-it-works">
         <h2>How It Works</h2>
