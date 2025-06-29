@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Contact.css';
 import { motion } from 'framer-motion';
+import { toast } from 'react-toastify';
 
 const Contact = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
@@ -12,7 +13,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log(form);
-    alert('Message submitted successfully!');
+    toast.success('Message submitted successfully!');
     setForm({ name: '', email: '', message: '' });
   };
 

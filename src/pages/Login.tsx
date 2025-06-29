@@ -3,6 +3,7 @@ import './Auth.css';
 import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { toast } from 'react-toastify';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -12,7 +13,7 @@ const Login = () => {
     e.preventDefault();
     // 🔐 You can connect to backend or Supabase later
     console.log({ email, password });
-    alert("Login submitted!");
+    toast.success("Login submitted!");
   };
 
   return (
