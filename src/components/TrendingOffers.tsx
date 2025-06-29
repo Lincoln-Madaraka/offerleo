@@ -1,5 +1,5 @@
 import React from 'react';
-import '.styles/TrendingOffers.css';
+import '..styles/TrendingOffers.css';
 import { useNavigate } from 'react-router-dom';
 
 const offerImages = [
