@@ -43,7 +43,7 @@
 git clone https://github.com/Lincoln-Madaraka/offerleo.git  
 cd offerleo  
 npm install  
-npm start  # Runs on http://localhost:3000 ```
+npm start  # Runs on http://localhost:3000 
 
 ### 🎯 Roadmap
 Phase 1: MVP with static demo data (In Progress)
