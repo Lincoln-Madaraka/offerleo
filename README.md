@@ -3,7 +3,8 @@
 **Slogan:** _Shop Smart, Save Hard._  
 
 [![Last Commit](https://img.shields.io/github/last-commit/Lincoln-Madaraka/offerleo?color=orange&style=flat-square)](https://github.com/Lincoln-Madaraka/offerleo/commits/main) 
-[![Deployed on Vercel](https://img.shields.io/badge/Live%20Demo-Vercel-000?logo=vercel&style=flat-square)](https://offerleo.vercel.app/) 
+🚨 UI rewritten as Deals-Radar at [Revamped](https://deals-radar.vercel.app/)
+[![Old Site](https://img.shields.io/badge/Live%20Demo-Vercel-000?logo=vercel&style=flat-square)](https://offerleo.vercel.app/) 
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)  
 
 ---
